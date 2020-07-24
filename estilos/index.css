@@ -8,6 +8,25 @@ body
     background: #DCDCFF;
 }
 
+header
+{
+    width: 100%;
+    height: 68px;
+    background: #4F008F;
+}
+
+.git
+{
+    margin: auto;
+    text-align: center;
+}
+
+.git > a > img
+{
+    height: 48px;
+    margin-top: 11px;
+}
+
 .page
 {
     max-width: 800px;
