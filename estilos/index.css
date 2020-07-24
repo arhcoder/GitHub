@@ -11,9 +11,19 @@ body
 .page
 {
     max-width: 800px;
-    height: 200px;
+    height: 210px;
     margin: auto;
     margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 16px -10px #000000;
+}
+
+.content
+{
+    max-width: 800px;
+    height: 210px;
+    margin: auto;
+    margin-top: 60px;
     background: #FFFFFF;
     box-shadow: 8px 8px 16px -10px #000000;
 }
@@ -27,12 +37,20 @@ h1
     height: 40px;
 }
 
+h2
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 20px;
+    color: #4F008F;
+    height: 40px;
+}
+
 p
 {
     text-align: center;
     margin: auto;
     font-family: monospace;
     font-size: 16pt;
-    padding-top: 10px;
-    width: 800px;
+    width: 90%;
 }
